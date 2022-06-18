@@ -43,7 +43,7 @@ class tripsScreen extends StatelessWidget {
                 constraints: BoxConstraints(
                   maxHeight: double.infinity,
                 ),
-                height: 500,
+                // height: 500,
                 width: 370,
                 padding: const EdgeInsets.all(15.0),
                 decoration: BoxDecoration(
