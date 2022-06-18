@@ -12,7 +12,7 @@ class tripItem extends StatelessWidget {
   final String id;
 
   final Season season;
-  final int duration;
+  final String duration;
   final TripType tripType;
 
   tripItem(
@@ -103,7 +103,7 @@ class tripItem extends StatelessWidget {
                         ]),
                   ),
                   height: 255,
-                  alignment: Alignment.bottomRight,
+                  alignment: Alignment.bottomLeft,
                   padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   child: Text(
                     title,
@@ -115,36 +115,36 @@ class tripItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
+                  // Row(
+                  //   children: [
+                  //     Icon(
+                  //       Icons.family_restroom,
+                  //       color: Theme.of(context).accentColor,
+                  //     ),
+                  //     SizedBox(width: 5),
+                  //     Text("$tripTypeText"),
+                  //   ],
+                  // ),
+                  // Row(
+                  //   children: [
+                  //     Icon(
+                  //       Icons.wb_sunny,
+                  //       color: Theme.of(context).accentColor,
+                  //     ),
+                  //     SizedBox(width: 5),
+                  //     Text("$seasonText"),
+                  //   ],
+                  // ),
                   Row(
                     children: [
                       Icon(
-                        Icons.family_restroom,
+                        Icons.timelapse,
                         color: Theme.of(context).accentColor,
                       ),
                       SizedBox(width: 5),
-                      Text("$tripTypeText"),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.wb_sunny,
-                        color: Theme.of(context).accentColor,
-                      ),
-                      SizedBox(width: 5),
-                      Text("$seasonText"),
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.today,
-                        color: Theme.of(context).accentColor,
-                      ),
-                      SizedBox(width: 5),
-                      Text("$duration days "),
+                      Text("$duration"),
                     ],
                   ),
                 ],

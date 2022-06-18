@@ -19,9 +19,10 @@ class Trip {
   final List<String> categories;
   final String title;
   final String imageUrl;
+  final String description;
   final List<String> activities;
   final List<String> program;
-  final int duration;
+  final String duration;
   final Season season;
   final TripType tripType;
   final bool isInSummer;
@@ -33,6 +34,7 @@ class Trip {
     @required this.categories,
     @required this.title,
     @required this.imageUrl,
+    @required this.description,
     @required this.activities,
     @required this.program,
     @required this.duration,

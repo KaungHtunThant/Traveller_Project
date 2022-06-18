@@ -6,8 +6,8 @@ import 'package:tourist_guide/providers/TripProvider.dart';
 
 class tripsScreen extends StatelessWidget {
   final String id;
-
-  tripsScreen(this.id);
+  // final String description;
+  tripsScreen(this.id,);
   int count = 0;
   @override
   Widget build(BuildContext context) {
@@ -34,43 +34,50 @@ class tripsScreen extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(20),
                 child: Text(
-                  "Activities",
+                  "Description",
                   style: Theme.of(context).textTheme.headline5,
                 ),
                 alignment: Alignment.centerLeft,
               ),
               Container(
-                height: 200,
-                width: 320,
+                constraints: BoxConstraints(
+                  maxHeight: double.infinity,
+                ),
+                height: 500,
+                width: 370,
                 padding: const EdgeInsets.all(15.0),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     border: Border.all(color: Colors.blueAccent)),
-                child: ListView(
-                  children: trip.activities.map((e) {
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          e,
-                        ),
-                        Divider()
-                      ],
-                    );
-                  }).toList(),
+                // child: ListView(
+                //   children: trip.activities.map((e) {
+                //     return Column(
+                //       crossAxisAlignment: CrossAxisAlignment.start,
+                //       children: [
+                //         Text(
+                //           e,
+                //         ),
+                //         Divider()
+                //       ],
+                //     );
+                //   }).toList(),
+                // ),
+                child: Text(
+                  trip.description,
+                  // textAlign: TextAlign.center,
                 ),
               ),
               Container(
                 padding: EdgeInsets.all(20),
                 child: Text(
-                  "Daily Program",
+                  "Bus Routes",
                   style: Theme.of(context).textTheme.headline5,
                 ),
                 alignment: Alignment.centerLeft,
               ),
               Container(
-                height: 200,
-                width: 320,
+                height: 300,
+                width: 370,
                 padding: const EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
@@ -81,17 +88,18 @@ class tripsScreen extends StatelessWidget {
                     return Column(
                       children: [
                         ListTile(
-                          title: Text(
-                            e,
-                          ),
+
                           leading: Container(
                             width: 50,
                             height: 50,
-                            child: Center(child: Text("Day $count")),
+                            child: Center(child: Text("Bus $count")),
                             decoration: BoxDecoration(
                               color: Theme.of(context).accentColor,
                               borderRadius: BorderRadius.circular(90),
                             ),
+                          ),
+                          title: Text(
+                            e,
                           ),
                         ),
                         Divider(),

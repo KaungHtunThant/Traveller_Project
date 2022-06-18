@@ -15,13 +15,8 @@ class TripProvider with ChangeNotifier {
         ],
         title: 'Shwedagone',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
-        activities: [
-          'Eat',
-          'Sleep',
-          'Code',
-          'Game',
-          'Party'
-        ],
+        description:'''Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!''',
+        activities: [],
         program: [
           'Eat',
           'Sleep',
@@ -29,7 +24,7 @@ class TripProvider with ChangeNotifier {
           'Game',
           'Party'
         ],
-        duration: 10,
+        duration: '9 AM to 6 PM',
         season: Season.Summer,
         tripType: TripType.Exploration,
         isInSummer: true,
@@ -43,6 +38,7 @@ class TripProvider with ChangeNotifier {
         ],
         title: 'Inya Lake',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
+        description: '',
         activities: [
           'Eat',
           'Sleep',
@@ -57,7 +53,7 @@ class TripProvider with ChangeNotifier {
           'Game',
           'Party'
         ],
-        duration: 10,
+        duration: '10',
         season: Season.Summer,
         tripType: TripType.Exploration,
         isInSummer: true,
@@ -72,6 +68,7 @@ class TripProvider with ChangeNotifier {
         ],
         title: 'Myaynigone',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
+        description: '',
         activities: [
           'Eat',
           'Sleep',
@@ -86,7 +83,7 @@ class TripProvider with ChangeNotifier {
           'Game',
           'Party'
         ],
-        duration: 10,
+        duration: '10',
         season: Season.Summer,
         tripType: TripType.Exploration,
         isInSummer: true,
@@ -100,6 +97,7 @@ class TripProvider with ChangeNotifier {
         ],
         title: 'Myit Kyi Nar',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
+        description: '',
         activities: [
           'Eat',
           'Sleep',
@@ -114,63 +112,7 @@ class TripProvider with ChangeNotifier {
           'Game',
           'Party'
         ],
-        duration: 10,
-        season: Season.Summer,
-        tripType: TripType.Exploration,
-        isInSummer: true,
-        isInWinter: true,
-        isForFamilies: true
-    ),
-    Trip(
-        id: 'm5',
-        categories: [
-          'c5',
-        ],
-        title: 'Test5',
-        imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
-        activities: [
-          'Eat',
-          'Sleep',
-          'Code',
-          'Game',
-          'Party'
-        ],
-        program: [
-          'Eat',
-          'Sleep',
-          'Code',
-          'Game',
-          'Party'
-        ],
-        duration: 10,
-        season: Season.Summer,
-        tripType: TripType.Exploration,
-        isInSummer: true,
-        isInWinter: true,
-        isForFamilies: true
-    ),
-    Trip(
-        id: 'm6',
-        categories: [
-          'c6',
-        ],
-        title: 'Test6',
-        imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
-        activities: [
-          'Eat',
-          'Sleep',
-          'Code',
-          'Game',
-          'Party'
-        ],
-        program: [
-          'Eat',
-          'Sleep',
-          'Code',
-          'Game',
-          'Party'
-        ],
-        duration: 10,
+        duration: '10',
         season: Season.Summer,
         tripType: TripType.Exploration,
         isInSummer: true,

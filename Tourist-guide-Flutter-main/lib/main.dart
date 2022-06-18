@@ -3,10 +3,13 @@ import 'package:provider/provider.dart';
 
 import 'providers/CategoryProvider.dart';
 import 'providers/TripProvider.dart';
-import 'screens/categories_screen.dart';
+import 'screens/welcome_page.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-
-import 'screens/taps_screen.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tourist_guide/screens/CubitAppLogics.dart';
+import 'package:tourist_guide/screens/appcubit_cubit.dart';
+import 'package:tourist_guide/screens/dataService.dart';
+import 'package:tourist_guide/screens/categories_trips_screen.dart';
 
 void main() {
   runApp(
@@ -54,7 +57,10 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: TabsScreen(),
+      home: BlocProvider<AppcubitCubit>(
+    create: (context) => AppcubitCubit(data: DataServices()),
+    child: CubitAppLOgics(),
+      )
     );
   }
 }

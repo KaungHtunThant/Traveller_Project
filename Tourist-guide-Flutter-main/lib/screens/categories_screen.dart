@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:tourist_guide/models/category.dart';
 import 'package:tourist_guide/providers/CategoryProvider.dart';
 import 'package:tourist_guide/widgets/Categories_item.dart';
+import 'categories_trips_screen.dart';
 
 class CategoriesScreen extends StatelessWidget {
   @override
@@ -23,6 +24,7 @@ class CategoriesScreen extends StatelessWidget {
             ),
             children: categories.map((e) {
               return CategoriesScreenWidge(image:e.imageUrl ,title: e.title,id: e.id,);
+              // return CategryTripesScreen('ygn', 'Yangon');
             }).toList(),
           ),
         ));
