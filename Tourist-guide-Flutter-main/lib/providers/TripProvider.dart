@@ -39,9 +39,9 @@ class TripProvider with ChangeNotifier {
     Trip(
         id: 'm2',
         categories: [
-          'c2',
+          'ygn',
         ],
-        title: 'Test2',
+        title: 'Inya Lake',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
         activities: [
           'Eat',
@@ -64,12 +64,13 @@ class TripProvider with ChangeNotifier {
         isInWinter: true,
         isForFamilies: true
     ),
+
     Trip(
         id: 'm3',
         categories: [
-          'c3',
+          'ygn',
         ],
-        title: 'Test3',
+        title: 'Myaynigone',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
         activities: [
           'Eat',
@@ -95,9 +96,9 @@ class TripProvider with ChangeNotifier {
     Trip(
         id: 'm4',
         categories: [
-          'c4',
+          'kachin',
         ],
-        title: 'Test4',
+        title: 'Myit Kyi Nar',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg',
         activities: [
           'Eat',

@@ -5,6 +5,16 @@ class CategoryProvider with ChangeNotifier {
     Category(
         id: 'ygn',
         title: 'Yangon',
+        imageUrl: 'https://www.wendywutours.com.au/resource/upload/734/banner-yangon.jpg'
+    ),
+    Category(
+        id: 'mdy',
+        title: 'Mandalay',
+        imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg'
+    ),
+    Category(
+        id: 'kachin',
+        title: 'Kachin',
         imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg'
     ),
     // Category(
