@@ -18,6 +18,7 @@ class CategryTripesScreen extends StatelessWidget {
     List<Trip> Trips = Provider.of<TripProvider>(context,listen: false).Categoryfilter;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black87,
         centerTitle: true,
         title: Text(title),
       ),

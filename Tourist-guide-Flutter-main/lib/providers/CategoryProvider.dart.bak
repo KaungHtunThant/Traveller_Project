@@ -10,17 +10,12 @@ class CategoryProvider with ChangeNotifier {
     Category(
         id: 'mdy',
         title: 'Mandalay',
-        imageUrl: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/af/7d/28.jpg'
+        imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg'
     ),
     Category(
         id: 'kachin',
         title: 'Kachin',
-        imageUrl: 'https://osugamyanmartravel.com/wp-content/uploads/2018/12/Kachin.jpg'
-    ),
-    Category(
-        id: 'shan',
-        title: 'Shan',
-        imageUrl: 'https://osugamyanmartravel.com/wp-content/uploads/2018/12/Shan.jpg'
+        imageUrl: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sa5da3ad6a208eec6/backgroundarea/i056862cfc4b2651d/version/1600946425/image.jpg'
     ),
     // Category(
     //     id: 'c2',

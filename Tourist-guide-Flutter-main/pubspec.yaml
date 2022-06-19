@@ -24,6 +24,8 @@ dependencies:
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
   http: ^0.13.4
+  url_launcher:
+  maps_launcher:
   flutter:
     sdk: flutter
 
@@ -50,6 +52,13 @@ flutter:
     - assets/welcom1.jpg
     - assets/welcom2.jpg
     - assets/welcom3.jpg
+    - assets/hld.jpg
+    - assets/jc.jpg
+    - assets/jds.jpg
+    - assets/kdg.jpg
+    - assets/krw.jpg
+    - assets/sdg.jpg
+    - assets/yu.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

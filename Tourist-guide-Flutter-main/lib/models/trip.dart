@@ -28,6 +28,7 @@ class Trip {
   final bool isInSummer;
   final bool isInWinter;
   final bool isForFamilies;
+  final String location;
 
   const Trip({
     @required this.id,
@@ -43,5 +44,6 @@ class Trip {
     @required this.isInSummer,
     @required this.isInWinter,
     @required this.isForFamilies,
+    @required this.location,
   });
 }

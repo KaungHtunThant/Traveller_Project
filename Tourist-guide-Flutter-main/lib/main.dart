@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'ElMessiri',
         textTheme: ThemeData.light().textTheme.copyWith(
               headline5: TextStyle(
-                color: Colors.blue,
+                color: Colors.black87,
                 fontSize: 24,
                 fontFamily: 'ElMessiri',
                 fontWeight: FontWeight.bold,
