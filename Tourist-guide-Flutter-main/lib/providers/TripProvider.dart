@@ -79,9 +79,7 @@ class TripProvider with ChangeNotifier {
         title: 'Junction City',
         imageUrl: 'https://i.imgur.com/cfymVuf.jpg',
         description: '''Junction City is located at the junction of Bogyoke Aung San road and Shwedagon Pagoda road in the city’s central business district.Junction City, one of downtown Yangon’s high-end real estate projects, has been completed and is now officially opened. The total project area encompasses 260,000 square metres, and features two 23- story towers for office spaces and luxury hospitality ventures. Junction City Shopping Centre, a building which consists of five floors, offers over 240 fashion, beauty, technology, food and lifestyle outlets from internationally known brands such as Coach, Hugo Boss, Versace, DAKS, Etienne Aigner, Love Moschino, PANDORA and more.Junction City Shopping Center have the largest food court and Cineplex in Myanmar. The JCGV Junction City Starium Theatre boasts Myanmar’s biggest screen- aptly named, “Super Big Screen”/The design is modelled after South Korea’s Starium cinema which is currently the home to the world’s biggest movie screen, according to the Guinness World Records''',
-        activities: [
-          
-        ],
+        activities: [],
         program: [
          
         ],

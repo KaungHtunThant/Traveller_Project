@@ -39,7 +39,7 @@ class tripsScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.fromLTRB(0, 0, 0, 40.0),
+          margin: EdgeInsets.fromLTRB(0, 0, 0, 80.0),
           child: Column(
             children: [
               Image.network(
@@ -141,12 +141,26 @@ class tripsScreen extends StatelessWidget {
 
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.location_on),
-        onPressed: () {
-          MapsLauncher.launchQuery(trip.location);
-          // MapUtils.openMap(trip.location);
-        },
+      // floatingActionButton: FloatingActionButton(
+      //
+      //   child: Icon(Icons.location_on),
+      //
+      //   onPressed: () {
+      //     MapsLauncher.launchQuery(trip.location);
+      //     // MapUtils.openMap(trip.location);
+      //   },
+      // ),
+      floatingActionButton: Container(
+        height: 70,
+        width: 70,
+        child: FittedBox(
+          child: FloatingActionButton(
+              child: Icon(Icons.location_on),
+              onPressed: () {
+                MapsLauncher.launchQuery(trip.location);
+            }
+          ),
+        ),
       ),
     );
   }
