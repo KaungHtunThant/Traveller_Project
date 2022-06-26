@@ -28,6 +28,7 @@ class _TabsScreenState extends State<TabsScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(_currentIndex == 0 ? "Traveller" : "Favourite Trips"),
+        backgroundColor: Colors.black87,
       ),
       // drawer: Drawers(),
       body: _children[_currentIndex],
