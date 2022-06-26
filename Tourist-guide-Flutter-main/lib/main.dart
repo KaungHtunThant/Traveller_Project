@@ -59,11 +59,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: TabsScreen(),
-    //   home: BlocProvider<AppcubitCubit>(
-    // create: (context) => AppcubitCubit(data: DataServices()),
-    // child: CubitAppLOgics(),
-    //   )
+      // home: TabsScreen(),
+      home: BlocProvider<AppcubitCubit>(
+        create: (context) => AppcubitCubit(data: DataServices()),
+        child: CubitAppLOgics(),
+      )
     );
   }
 }

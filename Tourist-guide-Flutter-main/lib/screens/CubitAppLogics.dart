@@ -4,6 +4,7 @@ import 'package:tourist_guide/main.dart';
 import 'appcubit_cubit.dart';
 import 'categories_trips_screen.dart';
 import 'welcome_page.dart';
+import 'package:tourist_guide/screens/taps_screen.dart';
 
 class CubitAppLOgics extends StatefulWidget {
   @override
@@ -21,7 +22,7 @@ class _CubitAppLOgicsState extends State<CubitAppLOgics> {
         }
         if (state is LoadedState) {
           // return CategryTripesScreen('ygn', 'Yangon');
-          return MyApp();
+          return TabsScreen();
         }
         // if (state is DetailsState) {
         //   return DetailsPage();
