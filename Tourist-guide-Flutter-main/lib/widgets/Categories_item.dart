@@ -11,8 +11,8 @@ class CategoriesScreenWidge extends StatelessWidget {
   void pushToTrips(BuildContext ctx) {
     Navigator.push(
       ctx,
-      // MaterialPageRoute(builder: (_) => CategryTripesScreen(id, title)),
-      MaterialPageRoute(builder: (_) => CategryTripesScreen('ygn', 'Yangon')),
+      MaterialPageRoute(builder: (_) => CategryTripesScreen(id, title)),
+      // MaterialPageRoute(builder: (_) => CategryTripesScreen('ygn', 'Yangon')),
     );
   }
 

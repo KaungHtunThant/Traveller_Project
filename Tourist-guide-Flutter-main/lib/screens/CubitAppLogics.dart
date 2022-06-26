@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tourist_guide/main.dart';
 import 'appcubit_cubit.dart';
 import 'categories_trips_screen.dart';
 import 'welcome_page.dart';
@@ -19,7 +20,8 @@ class _CubitAppLOgicsState extends State<CubitAppLOgics> {
           return WelcomePage();
         }
         if (state is LoadedState) {
-          return CategryTripesScreen('ygn', 'Yangon');
+          // return CategryTripesScreen('ygn', 'Yangon');
+          return MyApp();
         }
         // if (state is DetailsState) {
         //   return DetailsPage();

@@ -10,6 +10,8 @@ import 'package:tourist_guide/screens/CubitAppLogics.dart';
 import 'package:tourist_guide/screens/appcubit_cubit.dart';
 import 'package:tourist_guide/screens/dataService.dart';
 import 'package:tourist_guide/screens/categories_trips_screen.dart';
+import 'package:tourist_guide/screens/categories_screen.dart';
+import 'package:tourist_guide/screens/taps_screen.dart';
 
 void main() {
   runApp(
@@ -57,10 +59,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: BlocProvider<AppcubitCubit>(
-    create: (context) => AppcubitCubit(data: DataServices()),
-    child: CubitAppLOgics(),
-      )
+      home: TabsScreen(),
+    //   home: BlocProvider<AppcubitCubit>(
+    // create: (context) => AppcubitCubit(data: DataServices()),
+    // child: CubitAppLOgics(),
+    //   )
     );
   }
 }
