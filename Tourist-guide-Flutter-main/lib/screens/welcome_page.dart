@@ -40,7 +40,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     children: [
                       ApplargeText(text: 'TRAVELLERS', color: Colors.white),
                       AppText(
-                        text: 'Welcome to Yangon ',
+                        text: 'Welcome to Bagan ',
                         size: 20,
                         color: Colors.white54,
                       ),

@@ -21,8 +21,8 @@ class _CubitAppLOgicsState extends State<CubitAppLOgics> {
           return WelcomePage();
         }
         if (state is LoadedState) {
-          // return CategryTripesScreen('ygn', 'Yangon');
-          return TabsScreen();
+          return CategryTripesScreen('bagan', 'Bagan');
+          // return TabsScreen();
         }
         // if (state is DetailsState) {
         //   return DetailsPage();
